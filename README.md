@@ -5,9 +5,11 @@ Prueba local Math Service
 
 ![alt text](image.png)
 
-Pruba local Proxy redirigiendo a instancia de MathService
+Prueba local Proxy redirigiendo a instancia de MathService
 
 ![alt text](image-1.png)
+
+## Instancias
 
 Creando instancias en AWS
 
@@ -32,3 +34,5 @@ Despliegue funcional de la segunda Ec2 de PellSeq
 Probando desde Postman la peticion directamente hacia la instancia
 
 ![alt text](image-7.png)
+
+## Proxy Server
