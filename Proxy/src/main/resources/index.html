@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Example</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Sequence Bell</h1>
+<form>
+<label for="value">Value:</label><br>
+<input type="number" id="value" name="value" value=13><br><br>
+<input type="button" value="Submit" onclick="loadGetMsg()">
+</form>
+<div id="getrespmsg"></div>
+<script>
+function loadGetMsg() {
+let nameVar = document.getElementById("value").value;
+const xhttp = new XMLHttpRequest();
+xhttp.onload = function() {
+document.getElementById("getrespmsg").innerHTML =
+this.responseText;
+}
+xhttp.open("GET", "http://ec2-54-175-208-171.compute-1.amazonaws.com:6501/pellseq?value="+nameVar);
+xhttp.send();
+}
+</script>
+</body>
+</html>

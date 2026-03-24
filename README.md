@@ -36,3 +36,14 @@ Probando desde Postman la peticion directamente hacia la instancia
 ![alt text](image-7.png)
 
 ## Proxy Server
+
+Despliegue del proxy server en una instancia de EC2 y prueba desde postamn
+
+![alt text](image-8.png)
+
+## Apache Server
+
+Al entrar a nuestra instancia de EC2, donde desarrollaremos el formulario, donde el usuario ingresará el valor y se calculara la secuencia respectiva de pell, instalamos primero apache
+
+![alt text](image-9.png)
+
