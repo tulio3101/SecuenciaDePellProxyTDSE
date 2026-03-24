@@ -21,7 +21,7 @@ xhttp.onload = function() {
 document.getElementById("getrespmsg").innerHTML =
 this.responseText;
 }
-xhttp.open("GET", "http://ec2-54-175-208-171.compute-1.amazonaws.com:6501/pellseq?value="+nameVar);
+xhttp.open("GET", "http://ec2-54-175-208-171.compute-1.amazonaws.com:6501/proxy?value="+nameVar);
 xhttp.send();
 }
 </script>
